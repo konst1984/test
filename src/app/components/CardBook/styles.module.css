@@ -1,0 +1,105 @@
+.card{
+	position: relative;
+	display: flex;
+	border-radius: 10px;
+	overflow: hidden;
+	max-height: max-content;
+	box-shadow: inset 0 0 5px 2px black;
+	transition: all 0.2s linear;
+}
+
+.card:hover,
+.card:focus-visible{
+	/*background-color: whitesmoke;*/
+	scale: 1.02;
+}
+
+.card:hover .card__bg,
+.card:focus-visible .card__bg{
+	filter: blur(5px) brightness(0.5)
+}
+
+.card__bg{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	inset:0;
+	z-index: 1;
+	filter: blur(10px) brightness(0.3);
+	transition: all 0.2s linear;
+}
+
+.wrapper{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	gap:10px;
+	justify-items: center;
+	width: 100%;
+	padding: 20px;
+	align-items: center;
+	text-align: center;
+	transition: all 0.2s linear;
+	z-index: 1;
+}
+
+
+.card__link{
+	position: absolute;
+	inset:0;
+}
+
+
+.card__img-box{
+	height: 260px;
+	width: 200px;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.card__img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.content{
+	display: flex;
+	flex-direction: column;
+	gap:10px;
+	justify-items: center;
+	width: 100%;
+	align-items: center;
+	text-align: center;
+	z-index: 1;
+	color: white;
+}
+
+.title{
+	flex-grow: 1;
+	font-size: 20px;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+}
+
+.category{
+	background-color: #16324d;
+	color:white;
+	padding: 2px 5px;
+}
+
+.authors{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	gap:5px;
+	flex-wrap: wrap;
+}
+.span{
+	font-weight: bold;
+	padding-right: 2px;
+}
+

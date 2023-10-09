@@ -1,0 +1,16 @@
+.wrapper{
+	display: grid;
+	place-items: center;
+	padding-top: 50px;
+}
+
+.content{
+	padding: 10px 20px;
+	border-radius: 20px;
+	background-color: rgba(0, 0, 0, 0.61);
+	color: white;
+}
+
+.title{
+	font-size: clamp(20px, 5vw, 80px);
+}

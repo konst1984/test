@@ -1,0 +1,30 @@
+.wrapper{
+	display: flex;
+	align-items: center;
+}
+
+.label{
+	width: 100%;
+	text-align: center;
+	text-transform: uppercase;
+	color: white;
+	font-weight: bold;
+	padding: 2px 10px;
+	border-radius: 10px;
+	margin-right: 10px;
+}
+
+.select{
+	min-width: 150px;
+	height: 30px;
+	border-radius: 30px;
+	text-align: center;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+
+.select:hover,
+ .select:focus-visible{
+	outline: 2px solid  #3b6dd7;
+ }

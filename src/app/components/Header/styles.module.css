@@ -1,0 +1,33 @@
+.header{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 20px;
+	min-height: 400px;
+	background: url('../../images/bg-header.webp') center center/cover no-repeat;
+}
+
+.wrapper{
+	padding: 15px 0;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 20px;
+	background: #0000009e;
+}
+
+.header__selects{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	justify-content: center;
+	gap:10px;
+}
+
+.title{
+	text-transform: uppercase;
+	color: white;
+}

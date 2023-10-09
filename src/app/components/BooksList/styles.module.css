@@ -1,0 +1,47 @@
+.booksList{
+	padding: 15px;
+}
+
+.title{
+	color:white;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+h2{
+	margin-bottom: 5px;
+}
+
+.list{
+	padding: 20px 0;
+	display: grid;
+	justify-content: center;
+	gap: 20px;
+	grid-template-columns: repeat( auto-fit, minmax(250px, 1fr));
+}
+
+.preloader{
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, 5%);
+	border-radius: 10px;
+	width: 150px;
+	margin: auto;
+	background: rgba(0, 0, 0, 0.7);
+}
+
+.button{
+	display: block;
+	margin: 15px auto;
+	padding: 10px 20px;
+	cursor: pointer;
+	text-transform: uppercase;
+	border-radius: 10px;
+	background-color: #245cd2;
+	border: none;
+	color: white;
+}
+
+.button:disabled{
+	background-color: #b6b4b4;
+}

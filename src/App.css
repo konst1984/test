@@ -1,0 +1,16 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.app{
+  position: relative;
+  min-height: 100vh;
+  font-size: 16px;
+  padding-bottom: 40px;
+  background: #cbae8f;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #be8d64, #cbae8f);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #be8d64, #cbae8f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+}
